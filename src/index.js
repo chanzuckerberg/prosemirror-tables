@@ -66,7 +66,7 @@ export function tableEditing({ allowTableNodeSelection = false } = {}) {
 }
 
 export {fixTables, handlePaste, fixTablesKey}
-export {cellAround, isInTable, selectionCell, moveCellForward, inSameTable, findCell, colCount, nextCell, setAttrs} from "./util";
+export {cellAround, isInTable, selectionCell, moveCellForward, inSameTable, findCell, colCount, nextCell, setAttr} from "./util";
 export {tableNodes, tableNodeTypes} from "./schema"
 export {CellSelection} from "./cellselection"
 export {TableMap} from "./tablemap"
